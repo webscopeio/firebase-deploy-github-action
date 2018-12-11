@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Build gastby based site and deploy it to
 LABEL "com.github.actions.icon"="share"
 LABEL "com.github.actions.color"="yellow"
 
-# LABEL "repository"="http://github.com/octocat/hello-world"
-# LABEL "homepage"="http://github.com/actions"
-# LABEL "maintainer"="Octocat <octocat@github.com>"
+LABEL "repository"="https://github.com/webscopeio/firebase-deploy-github-action"
+LABEL "homepage"="https://github.com/webscopeio/firebase-deploy-github-action"
+LABEL "maintainer"="Pustelto <pustelnik@webscope.io>"
 
 
 ADD entrypoint.sh /entrypoint.sh
